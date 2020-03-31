@@ -12,12 +12,15 @@ Afgezien van de opdracht zelf zijn er aantal dingen die we graag willen zien:
 
 Het komt vaak voor dat je wachtwoorden of andere gevoelige gegevens moet delen met collega's, een externe partij of een klant.
 Om te voorkomen dat deze data uitlekt kan je gebruik maken van een Secure Messaging Application. 
-Aan jou de taak om een simpele SMA op te zetten. Een paar dingen om rekening mee te houden:
+Aan jou de taak om een simpele SMA op te zetten. Wat we ongeveer verwachten:
 
-- We hoeven alleen tekst op te sturen
-- Om de veiligheid te garanderen heb je een URL én een wachtwoord nodig om de gegevens in te zien
-- Het zou handig zijn als ik een collega kan kiezen uit een lijst zodat ik zijn gegevens niet in hoef te voeren, daarvoor kan je gebruik maken van deze 'API': https://pastebin.com/raw/uDzdKzGG
-- De URL moet automatisch verlopen na een bepaalde tijd, of te verwijderen zijn nadat hij gelezen is
+1. Een pagina om een bericht te versleutelen
+    * We hoeven alleen tekst op te sturen
+    * Soms wil ik een bericht naar een collega sturen. Het zou handig zijn als ik optioneel een collega kan kiezen uit een lijst zodat ik zijn gegevens niet in hoef te voeren, daarvoor kan je gebruik maken van deze 'API': https://pastebin.com/raw/uDzdKzGG (Behalve het opslaan van de gekozen collega in bijv. je database hoef je hier niet echt iets mee te doen)
+2. Na het versleutelen krijg ik een URL naar de ontsleutel pagina en een wachtwoord om het bericht te ontsleutelen
+3. Bericht ontsleutel pagina
+    * Om de veiligheid te garanderen heb je het wachtwoord nodig om de gegevens in te zien
+    * De pagina moet automatisch verlopen na een bepaalde tijd en/of te verwijderen zijn nadat hij gelezen is (tip: Laravel heeft hiervoor een standaard functionaliteit)
 
 ## Assessment opsturen
-Clone deze repository of maak je eigen repo aan. Stuur hem daarna in een zipje onze kant op. 
+Clone deze repository of maak je eigen repo aan. Stuur ons een linkje naar je repo of stuur hem daarna in een zipje onze kant op. We hebben liever geen forks of pull requests, dan kan iedereen de oplossing bij elkaar afkijken ;)
