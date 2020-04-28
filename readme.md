@@ -23,4 +23,7 @@ Aan jou de taak om een simpele SMA op te zetten. Wat we ongeveer verwachten:
     * De pagina moet automatisch verlopen na een bepaalde tijd en/of te verwijderen zijn nadat hij gelezen is (tip: Laravel heeft hiervoor een standaard functionaliteit)
 
 ## Assessment opsturen
-Clone deze repository of maak je eigen repo aan. Stuur ons een linkje naar je repo of stuur hem daarna in een zipje onze kant op. We hebben liever geen forks of pull requests, dan kan iedereen de oplossing bij elkaar afkijken ;)
+We hebben alvast een beginnetje voor je gemaakt in de 'assignment' map. Daar vind je een (bijna) lege Laravel installatie met Bootstrap. 
+Om je een beetje te helpen staat er ook alvast een simpel formuliertje klaar inclusief feature test.
+Clone deze repository of maak je eigen repo aan. Stuur ons een linkje naar je repo of stuur hem daarna in een zipje onze kant op. 
+We hebben liever geen forks of pull requests, dan kan iedereen de oplossing bij elkaar afkijken ;)
