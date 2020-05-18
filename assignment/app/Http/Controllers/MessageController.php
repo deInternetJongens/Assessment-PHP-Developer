@@ -6,7 +6,7 @@ namespace App\Http\Controllers;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 
-class EncryptController extends Controller
+class MessageController extends Controller
 {
     /**
      * Display a listing of the resource.

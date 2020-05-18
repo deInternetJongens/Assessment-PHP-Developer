@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'EncryptController@create');
+Route::get('/', 'MessageController@create');
