@@ -14,26 +14,6 @@
 </nav>
 
 <div class="container">
-
-    @if (isset($errors) && $errors->any())
-        <div class="row">
-            <div class="alert alert-danger" role="alert">
-                <ul>
-                    @foreach ($errors->all() as $error)
-                        <li>{{ $error }}</li>
-                    @endforeach
-                </ul>
-            </div>
-        </div>
-    @endif
-
-    @if (session('success'))
-        <div class="row">
-            <div class="alert alert-success">
-                {{ session('success') }}
-            </div>
-        </div>
-    @endif
     @yield('content')
 </div>
 <script src="{{ asset('js/app.js') }}"></script>
