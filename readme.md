@@ -20,7 +20,7 @@ Aan jou de taak om een simpele SMA op te zetten. Wat we ongeveer verwachten:
 2. Na het versleutelen krijg ik een URL naar de ontsleutel pagina en een wachtwoord om het bericht te ontsleutelen
 3. Bericht ontsleutel pagina
     * Om de veiligheid te garanderen heb je het wachtwoord nodig om de gegevens in te zien
-    * De pagina moet automatisch verlopen na een bepaalde tijd en/of te verwijderen zijn nadat hij gelezen is (tip: Laravel heeft hiervoor een standaard functionaliteit)
+    * De pagina moet automatisch verlopen na een bepaalde tijd en/of te verwijderen zijn nadat hij gelezen is
 
 ## Assessment opsturen
 We hebben alvast een beginnetje voor je gemaakt in de 'assignment' map. Daar vind je een (bijna) lege Laravel installatie met Bootstrap. 
