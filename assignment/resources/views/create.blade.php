@@ -59,7 +59,7 @@
         </form>
 
     </div>
-
-    <script src="{{ asset('js/app.js') }}"></script>
+</div>
+<script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
