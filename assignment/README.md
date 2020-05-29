@@ -11,7 +11,7 @@ composer install
 php artisan key:generate
 ```
 
-Create a new database and update the database connection values in the `.env.` file. 
+Create a new database and update the database connection values in the `.env` file. 
 Then run:
 
 ```bash 
