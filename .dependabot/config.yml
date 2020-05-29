@@ -3,6 +3,14 @@ update_configs:
 - package_manager: "php:composer"
   directory: "/assignment"
   update_schedule: "daily"
+  default_reviewers:
+  - "maarten00"
+  - "derky"
+  - "rensdij"
 - package_manager: "javascript"
   directory: "/assignment"
   update_schedule: "daily"
+  default_reviewers:
+  - "maarten00"
+  - "derky"
+  - "rensdij"
