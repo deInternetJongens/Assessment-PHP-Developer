@@ -1,0 +1,22 @@
+version: 2
+updates:
+- package-ecosystem: composer
+  directory: "/assignment"
+  schedule:
+    interval: daily
+    time: '04:00'
+  open-pull-requests-limit: 10
+  reviewers:
+  - maarten00
+  - derky
+  - rensdij
+- package-ecosystem: npm
+  directory: "/assignment"
+  schedule:
+    interval: daily
+    time: '04:00'
+  open-pull-requests-limit: 10
+  reviewers:
+  - maarten00
+  - derky
+  - rensdij
