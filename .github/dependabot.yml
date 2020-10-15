@@ -8,7 +8,6 @@ updates:
   open-pull-requests-limit: 10
   reviewers:
   - maarten00
-  - derky
   - rensdij
 - package-ecosystem: npm
   directory: "/assignment"
