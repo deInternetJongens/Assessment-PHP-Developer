@@ -20,6 +20,6 @@
         "resolve-url-loader": "^4.0.0",
         "sass": "^1.32.12",
         "sass-loader": "^10.1.1",
-        "vue-template-compiler": "^2.6.11"
+        "vue-template-compiler": "^2.6.14"
     }
 }
